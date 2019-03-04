@@ -27,6 +27,7 @@ use the below command to check the Laser sensor data being published
 ```
 rostopic echo /scan
 ```
+screenshots of teleoperation and laserscan messages are attached as `teleop.png` and `laserScan.png` respectively 
 
 ## Obstacle Avoidance
 first create a catkin workspace as below
@@ -64,3 +65,6 @@ Now open a new terminal and give th efollowing command to launch the turtlebot w
 roslaunch turtlebot_gazebo turtlebot_world.launch
 ```
 You can see the turtlebot moving by avoiding the obstacles
+
+screenshot of obstacle avoidance is attached as `obstacleAvoidance.png`
+The log file for the abstacle avoidance is also added as `state.log` to the repository
